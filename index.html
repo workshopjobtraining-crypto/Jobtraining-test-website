@@ -88,7 +88,6 @@
       </div>
       <div class="hidden md:flex items-center gap-8">
         <a href="#about" class="nav-link">About</a>
-        <a href="#gallery" class="nav-link">Gallery</a>
         <a href="#testimonials" class="nav-link">Testimonials</a>
         <a href="#pricing" class="nav-link">Pricing</a>
         <a href="#contact" class="nav-link">Contact</a>
@@ -202,26 +201,33 @@
     </div>
   </section>
 
-  <!-- GALLERY -->
-  <section id="gallery" class="bg-brand-black py-24">
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="bg-brand-black py-24 relative overflow-hidden">
+    <div style="position:absolute;top:0;right:0;width:420px;height:420px;background:radial-gradient(circle,rgba(196,30,30,.08) 0%,transparent 70%);pointer-events:none;"></div>
     <div class="max-w-7xl mx-auto px-6">
       <div class="text-center mb-14 reveal">
-        <div class="flex items-center justify-center gap-3 mb-4"><div class="divider"></div><span class="text-brand-gold font-semibold" style="font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;">40 Years in Photos</span><div class="divider"></div></div>
-        <h2 class="font-display text-brand-mist" style="font-size:clamp(2rem,5vw,3.8rem);line-height:1;letter-spacing:.02em;">DECADES OF DIESEL<br><span style="color:#C41E1E;">IN THE TRENCHES</span></h2>
+        <div class="flex items-center justify-center gap-3 mb-4"><div class="divider"></div><span class="text-brand-gold font-semibold" style="font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;">Student Testimonials</span><div class="divider"></div></div>
+        <h2 class="font-display text-brand-mist" style="font-size:clamp(2rem,5vw,3.8rem);line-height:1;letter-spacing:.02em;">STRAIGHT FROM<br><span style="color:#C41E1E;">THE STUDENTS</span></h2>
       </div>
-      <div class="gallery-grid reveal">
-        <div class="gallery-main photo-frame" style="height:480px;">
-          <img src="https://placehold.co/760x480/1a1a1a/3d3d3d?text=Raul+on+the+Job" alt="Raul Tapia working" />
-          <div class="photo-overlay"></div><div class="photo-color"></div>
-          <div class="absolute bottom-5 left-5 z-10"><span style="background:rgba(10,10,10,.82);backdrop-filter:blur(8px);border:1px solid rgba(245,196,0,.28);border-radius:6px;padding:5px 12px;font-size:.72rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:rgba(244,244,242,.85);">Engine Overhaul — Field Work</span></div>
+      <!-- Video placeholder -->
+      <div class="reveal mb-8">
+        <div style="width:100%;aspect-ratio:16/9;background:#111;border:2px dashed rgba(245,196,0,.3);border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;position:relative;overflow:hidden;">
+          <div style="width:64px;height:64px;background:rgba(245,196,0,.12);border:2px solid rgba(245,196,0,.35);border-radius:50%;display:flex;align-items:center;justify-content:center;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="#F5C400"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+          <span class="font-display text-brand-mist/50" style="font-size:1rem;letter-spacing:.1em;text-transform:uppercase;">Video — Coming Soon</span>
+          <span class="text-brand-mist/30 text-xs" style="letter-spacing:.06em;">Replace this placeholder with your video file</span>
         </div>
-        <div class="photo-frame" style="height:232px;"><img src="https://placehold.co/360x232/151515/3d3d3d?text=Fuel+System+Work" alt="Fuel system" /><div class="photo-overlay"></div><div class="photo-color"></div></div>
-        <div class="photo-frame" style="height:232px;"><img src="https://placehold.co/360x232/121212/3d3d3d?text=Teaching+Class" alt="Teaching class" /><div class="photo-overlay"></div><div class="photo-color"></div></div>
       </div>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-3 mt-3 reveal">
-        <div class="photo-frame" style="height:200px;"><img src="https://placehold.co/400x200/181818/3d3d3d?text=Transmission+Rebuild" alt="Transmission" /><div class="photo-overlay"></div><div class="photo-color"></div></div>
-        <div class="photo-frame" style="height:200px;"><img src="https://placehold.co/400x200/141414/3d3d3d?text=Student+Hands-On" alt="Students" /><div class="photo-overlay"></div><div class="photo-color"></div></div>
-        <div class="photo-frame hidden md:block" style="height:200px;"><img src="https://placehold.co/400x200/101010/3d3d3d?text=Air+Brake+System" alt="Air brakes" /><div class="photo-overlay"></div><div class="photo-color"></div></div>
+      <!-- 6 photo slots -->
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 reveal">
+        <div class="photo-frame" style="height:220px;"><img src="https://placehold.co/400x220/141414/2a2a2a?text=Photo+1" alt="Photo 1" /><div class="photo-overlay"></div><div class="photo-color"></div></div>
+        <div class="photo-frame" style="height:220px;"><img src="https://placehold.co/400x220/111111/2a2a2a?text=Photo+2" alt="Photo 2" /><div class="photo-overlay"></div><div class="photo-color"></div></div>
+        <div class="photo-frame" style="height:220px;"><img src="https://placehold.co/400x220/181818/2a2a2a?text=Photo+3" alt="Photo 3" /><div class="photo-overlay"></div><div class="photo-color"></div></div>
+        <div class="photo-frame" style="height:220px;"><img src="https://placehold.co/400x220/141414/2a2a2a?text=Photo+4" alt="Photo 4" /><div class="photo-overlay"></div><div class="photo-color"></div></div>
+        <div class="photo-frame" style="height:220px;"><img src="https://placehold.co/400x220/111111/2a2a2a?text=Photo+5" alt="Photo 5" /><div class="photo-overlay"></div><div class="photo-color"></div></div>
+        <div class="photo-frame" style="height:220px;"><img src="https://placehold.co/400x220/181818/2a2a2a?text=Photo+6" alt="Photo 6" /><div class="photo-overlay"></div><div class="photo-color"></div></div>
       </div>
     </div>
   </section>
@@ -240,25 +246,6 @@
         <div class="cur-card reveal"><div class="cur-icon"><svg width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="#F5C400" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div><h3 class="font-bold text-brand-mist text-base mb-2">Air Brakes</h3><p class="text-brand-mist/55 text-sm" style="line-height:1.7;">Full brake system inspection, adjustment, and repair including slack adjusters and brake chambers.</p></div>
         <div class="cur-card reveal"><div class="cur-icon"><svg width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="#F5C400" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg></div><h3 class="font-bold text-brand-mist text-base mb-2">Emissions / DEF Systems</h3><p class="text-brand-mist/55 text-sm" style="line-height:1.7;">DPF cleaning, SCR diagnostics, EGR operation, and DEF system repairs to pass inspection.</p></div>
         <div class="cur-card reveal"><div class="cur-icon"><svg width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="#F5C400" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div><h3 class="font-bold text-brand-mist text-base mb-2">Transmissions &amp; Driveline</h3><p class="text-brand-mist/55 text-sm" style="line-height:1.7;">Manual and automatic transmissions, clutch service, driveshafts, and differential basics.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- TESTIMONIALS -->
-  <section id="testimonials" class="bg-brand-black py-24 relative overflow-hidden">
-    <div style="position:absolute;top:0;right:0;width:420px;height:420px;background:radial-gradient(circle,rgba(196,30,30,.08) 0%,transparent 70%);pointer-events:none;"></div>
-    <div class="max-w-7xl mx-auto px-6">
-      <div class="text-center mb-14 reveal">
-        <div class="flex items-center justify-center gap-3 mb-4"><div class="divider"></div><span class="text-brand-gold font-semibold" style="font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;">Student Testimonials</span><div class="divider"></div></div>
-        <h2 class="font-display text-brand-mist" style="font-size:clamp(2rem,5vw,3.8rem);line-height:1;letter-spacing:.02em;">STRAIGHT FROM<br><span style="color:#C41E1E;">THE STUDENTS</span></h2>
-      </div>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-        <div class="t-card reveal"><div class="quote-mark">"</div><div class="stars mb-3">★★★★★</div><p class="text-brand-mist/70 text-sm mb-5" style="line-height:1.75;">Before Raul's class, I was scared to touch anything more complicated than an oil change. After just a few sessions, I was rebuilding injectors. The way he explains things — it just clicks.</p><div style="border-top:1px solid rgba(196,30,30,.18);padding-top:14px;display:flex;align-items:center;gap:12px;"><div style="width:38px;height:38px;background:rgba(196,30,30,.2);border-radius:50%;border:1px solid rgba(196,30,30,.3);display:flex;align-items:center;justify-content:center;flex-shrink:0;"><span style="font-weight:700;color:#F5C400;font-size:.9rem;">M</span></div><div><div class="font-bold text-brand-mist text-sm">Marcus T.</div><div class="text-brand-mist/40 text-xs">Now owns his own diesel shop</div></div></div></div>
-        <div class="t-card reveal"><div class="quote-mark">"</div><div class="stars mb-3">★★★★★</div><p class="text-brand-mist/70 text-sm mb-5" style="line-height:1.75;">I tried online courses, I tried community college. Nothing hit like working alongside Raul. He puts a wrench in your hand on day one. I got hired by a fleet company within 2 months of finishing.</p><div style="border-top:1px solid rgba(196,30,30,.18);padding-top:14px;display:flex;align-items:center;gap:12px;"><div style="width:38px;height:38px;background:rgba(196,30,30,.2);border-radius:50%;border:1px solid rgba(196,30,30,.3);display:flex;align-items:center;justify-content:center;flex-shrink:0;"><span style="font-weight:700;color:#F5C400;font-size:.9rem;">D</span></div><div><div class="font-bold text-brand-mist text-sm">Diego R.</div><div class="text-brand-mist/40 text-xs">Fleet Technician, 3 years</div></div></div></div>
-        <div class="t-card reveal"><div class="quote-mark">"</div><div class="stars mb-3">★★★★★</div><p class="text-brand-mist/70 text-sm mb-5" style="line-height:1.75;">I was the only woman in the class and Raul made sure I kept up with everyone. His patience and the way he breaks down every step is something you can't find in a YouTube video.</p><div style="border-top:1px solid rgba(196,30,30,.18);padding-top:14px;display:flex;align-items:center;gap:12px;"><div style="width:38px;height:38px;background:rgba(196,30,30,.2);border-radius:50%;border:1px solid rgba(196,30,30,.3);display:flex;align-items:center;justify-content:center;flex-shrink:0;"><span style="font-weight:700;color:#F5C400;font-size:.9rem;">L</span></div><div><div class="font-bold text-brand-mist text-sm">Leticia V.</div><div class="text-brand-mist/40 text-xs">Independent Mechanic</div></div></div></div>
-        <div class="t-card reveal"><div class="quote-mark">"</div><div class="stars mb-3">★★★★★</div><p class="text-brand-mist/70 text-sm mb-5" style="line-height:1.75;">Spent 15 years driving trucks and figured I knew a thing or two. Raul humbled me fast — and then built me right back up. Left with skills I use every single day. Worth every penny.</p><div style="border-top:1px solid rgba(196,30,30,.18);padding-top:14px;display:flex;align-items:center;gap:12px;"><div style="width:38px;height:38px;background:rgba(196,30,30,.2);border-radius:50%;border:1px solid rgba(196,30,30,.3);display:flex;align-items:center;justify-content:center;flex-shrink:0;"><span style="font-weight:700;color:#F5C400;font-size:.9rem;">J</span></div><div><div class="font-bold text-brand-mist text-sm">James P.</div><div class="text-brand-mist/40 text-xs">OTR Driver turned Mechanic</div></div></div></div>
-        <div class="t-card reveal"><div class="quote-mark">"</div><div class="stars mb-3">★★★★★</div><p class="text-brand-mist/70 text-sm mb-5" style="line-height:1.75;">Raul trained me so well that I'm now teaching others. The simplicity method he uses is the real deal. No overcomplication, no gatekeeping — just honest, practical knowledge passed down right.</p><div style="border-top:1px solid rgba(196,30,30,.18);padding-top:14px;display:flex;align-items:center;gap:12px;"><div style="width:38px;height:38px;background:rgba(196,30,30,.2);border-radius:50%;border:1px solid rgba(196,30,30,.3);display:flex;align-items:center;justify-content:center;flex-shrink:0;"><span style="font-weight:700;color:#F5C400;font-size:.9rem;">C</span></div><div><div class="font-bold text-brand-mist text-sm">Carlos M.</div><div class="text-brand-mist/40 text-xs">Truck Repair Instructor (now)</div></div></div></div>
-        <div class="t-card reveal"><div class="quote-mark">"</div><div class="stars mb-3">★★★★★</div><p class="text-brand-mist/70 text-sm mb-5" style="line-height:1.75;">I used to spend $2,000+ a month on shop bills for my rig. After Raul's class I handle almost everything myself. Paid for the course in the first month of savings. Best investment I've made.</p><div style="border-top:1px solid rgba(196,30,30,.18);padding-top:14px;display:flex;align-items:center;gap:12px;"><div style="width:38px;height:38px;background:rgba(196,30,30,.2);border-radius:50%;border:1px solid rgba(196,30,30,.3);display:flex;align-items:center;justify-content:center;flex-shrink:0;"><span style="font-weight:700;color:#F5C400;font-size:.9rem;">R</span></div><div><div class="font-bold text-brand-mist text-sm">Ray H.</div><div class="text-brand-mist/40 text-xs">Owner-Operator</div></div></div></div>
       </div>
     </div>
   </section>
